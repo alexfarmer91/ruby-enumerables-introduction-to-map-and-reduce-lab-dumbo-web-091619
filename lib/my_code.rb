@@ -41,15 +41,13 @@ def reduce_to_total(source_array, starting_point = 0)
 end
 
 def reduce_to_all_true(source_array)
- i=0
- while source_array.length > i do
-   if source_array[i] != false 
-     p source_array[i]
-   else 
-     p false
-   end
-   i +=1
- end
+    source_array.reduce { |beTrue| 
+    if beTrue == true; 
+      p true; 
+      else p false 
+        end
+      
+    }
 end
     
 
