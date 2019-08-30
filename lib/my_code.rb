@@ -45,11 +45,10 @@ def reduce_to_all_true(source_array)
  while source_array.length > i do
    if source_array[i] == false 
      p false
-     i += 1
    else 
-     return source_array[i]
-     i += 1 
+     p source_array[i]
    end
+   i +=1
  end
 end
     
