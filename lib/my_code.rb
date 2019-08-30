@@ -51,7 +51,11 @@ end
     
 
 def reduce_to_any_true(source_array)
-  
+   if source_array.include?(false || nil) != true
+   p true
+ else 
+   p false
+end
 end
 
 
