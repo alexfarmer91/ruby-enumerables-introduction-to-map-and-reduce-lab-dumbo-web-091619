@@ -50,6 +50,7 @@ def reduce_to_all_true(source_array)
      p source_array[i]
      i += 1 
    end
+   p source_array
  end
 end
     
