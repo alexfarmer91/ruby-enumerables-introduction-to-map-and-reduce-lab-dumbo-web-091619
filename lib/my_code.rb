@@ -45,7 +45,7 @@ def reduce_to_all_true(source_array)
 
  while source_array.length > i do
  if boop.include?(false) != true
-   
+   p true
  end
    i += 1
 end
